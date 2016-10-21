@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=$(date | awk '{print $1"_"$2 "_"$3"_"$4}')
-file=$(cat /home/jenkins/git/testing/jenkins/os/ip.txt)
+file=$(cat /home/jenkins/git/testing/os/ip.txt)
 count=1
 #exec 3<&0
 #exec 0< ${file}
